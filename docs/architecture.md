@@ -25,16 +25,16 @@ DevOps Simulator follows a microservices architecture designed for high availabi
 ## Deployment Strategy
 
 ### Production
-- **Method**: Rolling updates
-- **Zero-downtime**: Yes
-- **Rollback**: Automated on failure
-- **Region**: us-east-1
+- **Method**: Rolling updates  
+- **Zero-downtime**: Yes  
+- **Rollback**: Automated on failure  
+- **Region**: us-east-1  
 
 ### Development
-- **Method**: Docker Compose
-- **Features**: Hot reload, instant feedback
-- **Testing**: Automated tests before deployment
+- **Method**: Docker Compose  
+- **Features**: Hot reload, instant feedback  
+- **Testing**: Automated tests before deployment  
 
 ## Security
-- **Production**: SSL/TLS encryption, strict access controls
-- **Development**: Relaxed security for easier debugging
+- **Production**: SSL/TLS encryption, strict access controls  
+- **Development**: Relaxed security for easier debugging  
